@@ -1,0 +1,27 @@
+{
+  "name": "inline-script-loader",
+  "version": "1.0.0",
+  "description": "这是一个可以将javascript内嵌到html中的webpack loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linnanli/inline-script-loader.git"
+  },
+  "author": "lin100",
+  "keywords": [
+    "webpack",
+    "loader"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Linnanli/inline-script-loader/issues"
+  },
+  "homepage": "https://github.com/Linnanli/inline-script-loader#readme",
+  "devDependencies": {
+    "loader-utils": "^1.1.0",
+    "uglify-es": "^3.3.9"
+  }
+}
