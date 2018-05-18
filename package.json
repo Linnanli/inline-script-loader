@@ -20,7 +20,7 @@
     "url": "https://github.com/Linnanli/inline-script-loader/issues"
   },
   "homepage": "https://github.com/Linnanli/inline-script-loader#readme",
-  "devDependencies": {
+  "dependencies": {
     "loader-utils": "^1.1.0",
     "uglify-es": "^3.3.9"
   }
