@@ -1,6 +1,6 @@
 {
   "name": "inline-script-loader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "这是一个可以将javascript内嵌到html中的webpack loader",
   "main": "index.js",
   "scripts": {
