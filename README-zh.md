@@ -1,12 +1,12 @@
 # inline-script-loader
 
-This is a `webpack loader` that can embed `javascript` in `html`.
+这是一个`webpack loader`，可以在`html`中嵌入`javascript`
 
 <p align="center">
-   📘 <a href="./README-zh.md">中文文档</a> 
+   📘 <a href="./README.md">English</a> 
 </p>
 
-# Installation
+# 安装
 
 ## npm
 
@@ -20,9 +20,9 @@ $ npm install inline-script-loader --save-dev
 $ yarn add inline-script-loader -D
 ```
 
-# Usage
+# 如何使用
 
-Create a `javascript` file: `common/lib/global.js`
+创建一个 `javascript` 文件: `common/lib/global.js`
 
 ``` javascript
 var global = {
@@ -30,7 +30,7 @@ var global = {
 };
 ```
 
-And introduced in the `src/index.html` template file
+并在`src/index.html`模板文件中引入
 
 ```html
 <!DOCTYPE html>
@@ -46,7 +46,7 @@ And introduced in the `src/index.html` template file
 
 ```
 
-Finally `webpack` output `dist/index.html`
+最后 `webpack` 输出 `dist/index.html`
 
 ```html
 <!DOCTYPE html>
@@ -70,7 +70,7 @@ Finally `webpack` output `dist/index.html`
 
 ## id
 
-Define the id of the inline script `<script>` tag
+定义内联脚本`<script>`标签的id
 
 * example
 
@@ -101,7 +101,7 @@ require('inline-script-loader?id=inline-script!common/lib/global.js')
 
 ## type
 
-Define the type attribute of the inline script `<script>` tag
+定义内联脚本`<script>`标签的`type`属性
 
 * example
 
@@ -134,7 +134,7 @@ require('inline-script-loader?type=text/ecmascript!common/lib/global.js')
 
 ## isUglify
 
-Whether to compress the script
+是否压缩脚本
 
 * example
 
