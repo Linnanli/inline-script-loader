@@ -1,7 +1,7 @@
 {
   "name": "inline-script-loader",
   "version": "1.0.6",
-  "description": "这是一个可以将javascript内嵌到html中的webpack loader",
+  "description": "This is a webpack loader that can embed javascript in html.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
