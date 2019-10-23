@@ -108,8 +108,6 @@ require('inline-script-loader?id=inline-script!common/lib/global.js')
 ```javascript
 
 require('inline-script-loader?type=text/ecmascript!common/lib/global.js')
-or
-require('inline-script-loader?type=text/ecmascript!common/lib/global.js')
 
 ```
 

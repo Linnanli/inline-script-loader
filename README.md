@@ -108,8 +108,6 @@ Define the type attribute of the inline script `<script>` tag
 ```javascript
 
 require('inline-script-loader?type=text/ecmascript!common/lib/global.js')
-or
-require('inline-script-loader?type=text/ecmascript!common/lib/global.js')
 
 ```
 
