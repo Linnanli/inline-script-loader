@@ -1,6 +1,6 @@
 {
   "name": "inline-script-loader",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This is a webpack loader that can embed javascript in html.",
   "main": "index.js",
   "scripts": {
