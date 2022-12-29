@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Linnanli/inline-script-loader#readme",
   "dependencies": {
-    "loader-utils": "^1.1.0",
+    "loader-utils": "^3.2.1",
     "uglify-es": "^3.3.9"
   }
 }
